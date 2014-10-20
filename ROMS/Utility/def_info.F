@@ -1,7 +1,7 @@
 #include "cppdefs.h"
       SUBROUTINE def_info (ng, model, ncid, ncname, DimIDs)
 !
-!svn $Id: def_info.F 719 2014-03-13 22:25:13Z arango $
+!svn $Id: def_info.F 741 2014-10-15 21:05:43Z arango $
 !================================================== Hernan G. Arango ===
 !  Copyright (c) 2002-2014 The ROMS/TOMS Group                         !
 !    Licensed under a MIT/X style license                              !
@@ -2160,25 +2160,27 @@
       IF (exit_flag.ne.NoError) RETURN
 # endif
 
-# ifdef WEAK_CONSTRAINT
-      Vinfo( 1)='HdecayM'
-      Vinfo( 2)='model error covariance horizontal decorrelation scale'
-      Vinfo( 3)='meter'
-      status=def_var(ng, model, ncid, varid, NF_TYPE,                   &
-     &               1, (/statedim/), Aval, Vinfo, ncname,              &
-     &               SetParAccess = .FALSE.)
-      IF (exit_flag.ne.NoError) RETURN
+      IF (NSA.eq.2) THEN
+        Vinfo( 1)='HdecayM'
+        Vinfo( 2)='model error covariance ' //                          &
+     &            'horizontal decorrelation scale'
+        Vinfo( 3)='meter'
+        status=def_var(ng, model, ncid, varid, NF_TYPE,                 &
+     &                 1, (/statedim/), Aval, Vinfo, ncname,            &
+     &                 SetParAccess = .FALSE.)
+        IF (exit_flag.ne.NoError) RETURN
 
-#  ifdef SOLVE3D
-      Vinfo( 1)='VdecayM'
-      Vinfo( 2)='model error covariance vertical decorrelation scale'
-      Vinfo( 3)='meter'
-      status=def_var(ng, model, ncid, varid, NF_TYPE,                   &
-     &               1, (/statedim/), Aval, Vinfo, ncname,              &
-     &               SetParAccess = .FALSE.)
-      IF (exit_flag.ne.NoError) RETURN
-#  endif
+# ifdef SOLVE3D
+        Vinfo( 1)='VdecayM'
+        Vinfo( 2)='model error covariance '//                           &
+     &            'vertical decorrelation scale'
+        Vinfo( 3)='meter'
+        status=def_var(ng, model, ncid, varid, NF_TYPE,                 &
+     &                 1, (/statedim/), Aval, Vinfo, ncname,              &
+     &                 SetParAccess = .FALSE.)
+        IF (exit_flag.ne.NoError) RETURN
 # endif
+      END IF
 
 # ifdef ADJUST_BOUNDARY
       Vinfo( 1)='HdecayB'

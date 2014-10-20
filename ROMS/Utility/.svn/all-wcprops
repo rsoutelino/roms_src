@@ -1,19 +1,163 @@
 K 25
 svn:wc:ra_dav:version-url
 V 40
-/svn/src/!svn/ver/736/trunk/ROMS/Utility
+/svn/src/!svn/ver/741/trunk/ROMS/Utility
+END
+posterior.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/posterior.F
+END
+def_dim.F
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/def_dim.F
+END
+def_station.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/def_station.F
+END
+stats_modobs.F
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/stats_modobs.F
+END
+set_scoord.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_scoord.F
+END
+stiffness.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/stiffness.F
+END
+shapiro.F
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/shapiro.F
+END
+def_gst.F
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/def_gst.F
+END
+get_3dfldr.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_3dfldr.F
+END
+wrt_station.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wrt_station.F
+END
+state_product.F
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/state_product.F
+END
+sqlq.F
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/sqlq.F
+END
+lubksb.F
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/lubksb.F
+END
+read_stapar.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/read_stapar.F
+END
+read_couplepar.F
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/read_couplepar.F
+END
+checkerror.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/checkerror.F
+END
+wrt_gst.F
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_gst.F
+END
+set_masks.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/set_masks.F
+END
+convolve.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/convolve.F
+END
+nf_fread3d.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fread3d.F
+END
+state_addition.F
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/state_addition.F
+END
+get_varcoords.F
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_varcoords.F
+END
+array_modes.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/array_modes.F
+END
+nf_fwrite2d.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fwrite2d.F
+END
+checkvars.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/checkvars.F
 END
 state_copy.F
 K 25
 svn:wc:ra_dav:version-url
 V 53
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/state_copy.F
-END
-wrt_ini.F
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_ini.F
 END
 get_ngfldr.F
 K 25
@@ -27,17 +171,203 @@ svn:wc:ra_dav:version-url
 V 53
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/get_2dfldr.F
 END
+extract_obs.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/extract_obs.F
+END
 read_fltbiopar.F
 K 25
 svn:wc:ra_dav:version-url
 V 57
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/read_fltbiopar.F
 END
+wrt_error.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wrt_error.F
+END
+normalization.F
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/normalization.F
+END
+def_lanczos.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/727/trunk/ROMS/Utility/def_lanczos.F
+END
+def_norm.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/def_norm.F
+END
+get_3dfld.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_3dfld.F
+END
+checkadj.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/checkadj.F
+END
+wrt_tides.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wrt_tides.F
+END
+def_var.F
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/def_var.F
+END
+metrics.F
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/739/trunk/ROMS/Utility/metrics.F
+END
+set_3dfld.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_3dfld.F
+END
+zeta_balance.F
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/src/!svn/ver/727/trunk/ROMS/Utility/zeta_balance.F
+END
+obs_cost.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/obs_cost.F
+END
+get_date.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_date.F
+END
+mp_exchange.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/mp_exchange.F
+END
+checkdefs.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/719/trunk/ROMS/Utility/checkdefs.F
+END
+get_state.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/724/trunk/ROMS/Utility/get_state.F
+END
+get_grid.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/719/trunk/ROMS/Utility/get_grid.F
+END
+wrt_info.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wrt_info.F
+END
+check_multifile.F
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/src/!svn/ver/726/trunk/ROMS/Utility/check_multifile.F
+END
+ini_adjust.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/719/trunk/ROMS/Utility/ini_adjust.F
+END
+get_bounds.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_bounds.F
+END
+strings.F
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/strings.F
+END
+def_ini.F
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/727/trunk/ROMS/Utility/def_ini.F
+END
+get_cycle.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_cycle.F
+END
+def_floats.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/def_floats.F
+END
+set_contact.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/739/trunk/ROMS/Utility/set_contact.F
+END
+def_hessian.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/727/trunk/ROMS/Utility/def_hessian.F
+END
+wrt_ini.F
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wrt_ini.F
+END
+get_wetdry.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/get_wetdry.F
+END
 extract_sta.F
 K 25
 svn:wc:ra_dav:version-url
 V 54
 /svn/src/!svn/ver/715/trunk/ROMS/Utility/extract_sta.F
+END
+wrt_diags.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wrt_diags.F
 END
 set_weights.F
 K 25
@@ -49,19 +379,37 @@ wrt_hessian.F
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_hessian.F
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wrt_hessian.F
 END
-posterior.F
+get_nudgcoef.F
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/src/!svn/ver/736/trunk/ROMS/Utility/get_nudgcoef.F
+END
+get_2dfld.F
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/posterior.F
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_2dfld.F
+END
+close_io.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/719/trunk/ROMS/Utility/close_io.F
 END
 def_impulse.F
 K 25
 svn:wc:ra_dav:version-url
 V 54
 /svn/src/!svn/ver/727/trunk/ROMS/Utility/def_impulse.F
+END
+nf_fread4d.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fread4d.F
 END
 def_mod.F
 K 25
@@ -81,11 +429,11 @@ svn:wc:ra_dav:version-url
 V 46
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/lbc.F
 END
-sum_grad.F
+ini_hmixcoef.F
 K 25
 svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/sum_grad.F
+V 55
+/svn/src/!svn/ver/734/trunk/ROMS/Utility/ini_hmixcoef.F
 END
 def_his.F
 K 25
@@ -97,13 +445,37 @@ wpoints.F
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wpoints.F
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wpoints.F
 END
-stiffness.F
+set_2dfld.F
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/stiffness.F
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_2dfld.F
+END
+obs_depth.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/obs_depth.F
+END
+def_info.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/def_info.F
+END
+gasdev.F
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/gasdev.F
+END
+wrt_impulse.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wrt_impulse.F
 END
 nf_fwrite3d.F
 K 25
@@ -111,11 +483,11 @@ svn:wc:ra_dav:version-url
 V 54
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fwrite3d.F
 END
-wrt_impulse.F
+white_noise.F
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_impulse.F
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/white_noise.F
 END
 congrad.F
 K 25
@@ -123,29 +495,23 @@ svn:wc:ra_dav:version-url
 V 50
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/congrad.F
 END
-white_noise.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/white_noise.F
-END
-obs_read.F
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/obs_read.F
-END
 wrt_his.F
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_his.F
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wrt_his.F
 END
-state_product.F
+ran_state.F
 K 25
 svn:wc:ra_dav:version-url
-V 56
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/state_product.F
+V 52
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/ran_state.F
+END
+frc_weak.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/frc_weak.F
 END
 read_fltpar.F
 K 25
@@ -153,17 +519,23 @@ svn:wc:ra_dav:version-url
 V 54
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/read_fltpar.F
 END
-nf_fwrite3d_bry.F
+ludcmp.F
 K 25
 svn:wc:ra_dav:version-url
-V 58
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fwrite3d_bry.F
+V 49
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/ludcmp.F
 END
 def_rst.F
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/src/!svn/ver/736/trunk/ROMS/Utility/def_rst.F
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/def_rst.F
+END
+nf_fwrite3d_bry.F
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fwrite3d_bry.F
 END
 state_scale.F
 K 25
@@ -171,23 +543,23 @@ svn:wc:ra_dav:version-url
 V 54
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/state_scale.F
 END
-set_masks.F
+dotproduct.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/dotproduct.F
+END
+get_ngfld.F
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_masks.F
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_ngfld.F
 END
-get_bounds.F
+set_3dfldr.F
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_bounds.F
-END
-ini_adjust.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/719/trunk/ROMS/Utility/ini_adjust.F
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_3dfldr.F
 END
 get_gst.F
 K 25
@@ -201,29 +573,17 @@ svn:wc:ra_dav:version-url
 V 54
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/obs_initial.F
 END
-ran1.F
+cgradient.F
 K 25
 svn:wc:ra_dav:version-url
-V 47
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/ran1.F
-END
-get_varcoords.F
-K 25
-svn:wc:ra_dav:version-url
-V 56
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_varcoords.F
-END
-state_initialize.F
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/state_initialize.F
+V 52
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/cgradient.F
 END
 wrt_rst.F
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_rst.F
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wrt_rst.F
 END
 mp_routines.F
 K 25
@@ -231,11 +591,23 @@ svn:wc:ra_dav:version-url
 V 54
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/mp_routines.F
 END
-def_floats.F
+set_ngfld.F
 K 25
 svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/def_floats.F
+V 52
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_ngfld.F
+END
+def_error.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/727/trunk/ROMS/Utility/def_error.F
+END
+nf_fread3d_bry.F
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fread3d_bry.F
 END
 read_biopar.F
 K 25
@@ -243,23 +615,47 @@ svn:wc:ra_dav:version-url
 V 54
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/read_biopar.F
 END
+uv_rotate.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/uv_rotate.F
+END
 read_sedpar.F
 K 25
 svn:wc:ra_dav:version-url
 V 54
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/read_sedpar.F
 END
-checkvars.F
+rep_matrix.F
 K 25
 svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/checkvars.F
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/rep_matrix.F
+END
+state_dotprod.F
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/state_dotprod.F
+END
+regrid.F
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/regrid.F
 END
 packing.F
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/packing.F
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/packing.F
+END
+wrt_floats.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_floats.F
 END
 nf_fwrite2d_bry.F
 K 25
@@ -267,17 +663,29 @@ svn:wc:ra_dav:version-url
 V 58
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fwrite2d_bry.F
 END
-wrt_error.F
+def_tides.F
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_error.F
+/svn/src/!svn/ver/727/trunk/ROMS/Utility/def_tides.F
 END
-normalization.F
+set_ngfldr.F
 K 25
 svn:wc:ra_dav:version-url
-V 56
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/normalization.F
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_ngfldr.F
+END
+back_cost.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/back_cost.F
+END
+set_2dfldr.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_2dfldr.F
 END
 inp_par.F
 K 25
@@ -285,29 +693,41 @@ svn:wc:ra_dav:version-url
 V 50
 /svn/src/!svn/ver/727/trunk/ROMS/Utility/inp_par.F
 END
-get_3dfld.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_3dfld.F
-END
-nf_fread4d.F
+nf_fread2d.F
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fread4d.F
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fread2d.F
 END
-stats_modobs.F
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/stats_modobs.F
-END
-wrt_tides.F
+vorticity.F
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_tides.F
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/vorticity.F
+END
+obs_write.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/obs_write.F
+END
+sum_grad.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/sum_grad.F
+END
+set_diags.F
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/set_diags.F
+END
+nf_fread2d_bry.F
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fread2d_bry.F
 END
 Module.mk
 K 25
@@ -315,17 +735,11 @@ svn:wc:ra_dav:version-url
 V 50
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/Module.mk
 END
-set_3dfld.F
+ntimestep.F
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_3dfld.F
-END
-gasdev.F
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/gasdev.F
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/ntimestep.F
 END
 erf.F
 K 25
@@ -333,29 +747,23 @@ svn:wc:ra_dav:version-url
 V 46
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/erf.F
 END
-checkdefs.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/719/trunk/ROMS/Utility/checkdefs.F
-END
-get_state.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/724/trunk/ROMS/Utility/get_state.F
-END
-sqlq.F
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/sqlq.F
-END
-ludcmp.F
+nrutil.F
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/ludcmp.F
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/nrutil.F
+END
+distribute.F
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/distribute.F
+END
+obs_read.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/obs_read.F
 END
 read_asspar.F
 K 25
@@ -369,443 +777,11 @@ svn:wc:ra_dav:version-url
 V 54
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/interpolate.F
 END
-dotproduct.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/dotproduct.F
-END
-set_3dfldr.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_3dfldr.F
-END
 def_avg.F
 K 25
 svn:wc:ra_dav:version-url
 V 50
 /svn/src/!svn/ver/727/trunk/ROMS/Utility/def_avg.F
-END
-convolve.F
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/convolve.F
-END
-get_cycle.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_cycle.F
-END
-grid_coords.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/grid_coords.F
-END
-inner2state.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/inner2state.F
-END
-nf_fread3d_bry.F
-K 25
-svn:wc:ra_dav:version-url
-V 57
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fread3d_bry.F
-END
-ini_lanczos.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/ini_lanczos.F
-END
-wrt_avg.F
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/src/!svn/ver/727/trunk/ROMS/Utility/wrt_avg.F
-END
-rep_matrix.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/rep_matrix.F
-END
-nf_fwrite4d.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fwrite4d.F
-END
-inquire.F
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/inquire.F
-END
-regrid.F
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/regrid.F
-END
-wrt_diags.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_diags.F
-END
-wrt_floats.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_floats.F
-END
-def_dim.F
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/def_dim.F
-END
-set_ngfldr.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_ngfldr.F
-END
-set_2dfldr.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_2dfldr.F
-END
-def_norm.F
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/727/trunk/ROMS/Utility/def_norm.F
-END
-get_2dfld.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_2dfld.F
-END
-nf_fread2d.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fread2d.F
-END
-checkadj.F
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/checkadj.F
-END
-def_station.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/def_station.F
-END
-shapiro.F
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/shapiro.F
-END
-set_2dfld.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_2dfld.F
-END
-nf_fread2d_bry.F
-K 25
-svn:wc:ra_dav:version-url
-V 57
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fread2d_bry.F
-END
-obs_depth.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/obs_depth.F
-END
-zeta_balance.F
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/src/!svn/ver/727/trunk/ROMS/Utility/zeta_balance.F
-END
-obs_cost.F
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/obs_cost.F
-END
-def_gst.F
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/def_gst.F
-END
-get_date.F
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_date.F
-END
-nrutil.F
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/nrutil.F
-END
-wrt_station.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_station.F
-END
-distribute.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/distribute.F
-END
-ran_state.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/ran_state.F
-END
-get_grid.F
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/719/trunk/ROMS/Utility/get_grid.F
-END
-read_stapar.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/read_stapar.F
-END
-wrt_info.F
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/719/trunk/ROMS/Utility/wrt_info.F
-END
-get_ngfld.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_ngfld.F
-END
-wrt_gst.F
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/wrt_gst.F
-END
-cgradient.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/cgradient.F
-END
-timers.F
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/timers.F
-END
-set_ngfld.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_ngfld.F
-END
-array_modes.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/array_modes.F
-END
-def_error.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/727/trunk/ROMS/Utility/def_error.F
-END
-uv_rotate.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/uv_rotate.F
-END
-nf_fwrite2d.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fwrite2d.F
-END
-state_dotprod.F
-K 25
-svn:wc:ra_dav:version-url
-V 56
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/state_dotprod.F
-END
-extract_obs.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/extract_obs.F
-END
-def_tides.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/727/trunk/ROMS/Utility/def_tides.F
-END
-def_lanczos.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/727/trunk/ROMS/Utility/def_lanczos.F
-END
-back_cost.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/back_cost.F
-END
-get_nudgcoef.F
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/src/!svn/ver/736/trunk/ROMS/Utility/get_nudgcoef.F
-END
-vorticity.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/vorticity.F
-END
-close_io.F
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/719/trunk/ROMS/Utility/close_io.F
-END
-obs_write.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/obs_write.F
-END
-ini_hmixcoef.F
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/src/!svn/ver/734/trunk/ROMS/Utility/ini_hmixcoef.F
-END
-set_diags.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_diags.F
-END
-set_scoord.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_scoord.F
-END
-metrics.F
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/metrics.F
-END
-def_var.F
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/def_var.F
-END
-ntimestep.F
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/ntimestep.F
-END
-def_info.F
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/719/trunk/ROMS/Utility/def_info.F
-END
-get_3dfldr.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/get_3dfldr.F
-END
-mp_exchange.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/mp_exchange.F
-END
-frc_weak.F
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/frc_weak.F
-END
-lubksb.F
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/lubksb.F
-END
-read_couplepar.F
-K 25
-svn:wc:ra_dav:version-url
-V 57
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/read_couplepar.F
-END
-checkerror.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/checkerror.F
-END
-check_multifile.F
-K 25
-svn:wc:ra_dav:version-url
-V 58
-/svn/src/!svn/ver/726/trunk/ROMS/Utility/check_multifile.F
-END
-strings.F
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/strings.F
-END
-nf_fread3d.F
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fread3d.F
 END
 random_ic.F
 K 25
@@ -813,23 +789,41 @@ svn:wc:ra_dav:version-url
 V 52
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/random_ic.F
 END
-state_addition.F
+inner2state.F
 K 25
 svn:wc:ra_dav:version-url
-V 57
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/state_addition.F
+V 54
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/inner2state.F
 END
-def_ini.F
+grid_coords.F
 K 25
 svn:wc:ra_dav:version-url
-V 50
-/svn/src/!svn/ver/727/trunk/ROMS/Utility/def_ini.F
+V 54
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/grid_coords.F
 END
 posterior_var.F
 K 25
 svn:wc:ra_dav:version-url
 V 56
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/posterior_var.F
+END
+ran1.F
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/ran1.F
+END
+state_initialize.F
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/state_initialize.F
+END
+timers.F
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/timers.F
 END
 cost_grad.F
 K 25
@@ -843,21 +837,33 @@ svn:wc:ra_dav:version-url
 V 52
 /svn/src/!svn/ver/727/trunk/ROMS/Utility/def_diags.F
 END
-set_contact.F
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/src/!svn/ver/709/trunk/ROMS/Utility/set_contact.F
-END
 abort.F
 K 25
 svn:wc:ra_dav:version-url
 V 48
 /svn/src/!svn/ver/709/trunk/ROMS/Utility/abort.F
 END
-def_hessian.F
+ini_lanczos.F
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/src/!svn/ver/727/trunk/ROMS/Utility/def_hessian.F
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/ini_lanczos.F
+END
+wrt_avg.F
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/741/trunk/ROMS/Utility/wrt_avg.F
+END
+nf_fwrite4d.F
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/nf_fwrite4d.F
+END
+inquire.F
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/709/trunk/ROMS/Utility/inquire.F
 END

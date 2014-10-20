@@ -1,7 +1,7 @@
 !
 !  ROMS/TOMS IO NetCDF variables.
 !
-!svn $Id: varinfo.dat 719 2014-03-13 22:25:13Z arango $
+!svn $Id: varinfo.dat 741 2014-10-15 21:05:43Z arango $
 !========================================================= Hernan G. Arango ===
 !  Copyright (c) 2002-2014 The ROMS/TOMS Group                                !
 !    Licensed under a MIT/X style license                                     !
@@ -219,6 +219,15 @@
 !  Wet/dry masks.
 !------------------------------------------------------------------------------
 !
+
+'wetdry_mask_psi'                                  ! Input/Output
+  'wet/dry mask on PSI-points'
+  'nondimensional'
+  'wetdry_mask_psi, scalar, series'
+  'ocean_time'
+  'idPwet'
+  'p2dvar'
+  1.0d0
 
 'wetdry_mask_rho'                                  ! Input/Output
   'wet/dry mask on RHO-points'
@@ -4027,8 +4036,8 @@
 
 'SdeC_north'                                       ! Input
   'small fraction carbon detritus northern boundary condition'
-  'millimole_carbon meter-3'
-  'SdeC_north, scalar, series'                     ! [millimole/m3]
+  'millimole_carbon meter-3'                       ! [millimole/m3]
+  'SdeC_north, scalar, series'
   'SdeC_time'
   'idTbry(inorth,iSDeC)'
   'nulvar'

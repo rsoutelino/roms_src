@@ -4,7 +4,7 @@
       MODULE mpdata_adiff_mod
 #if defined NONLINEAR && defined TS_MPDATA && defined SOLVE3D
 !
-!svn $Id: mpdata_adiff.F 709 2014-01-23 20:09:38Z arango $
+!svn $Id: mpdata_adiff.F 741 2014-10-15 21:05:43Z arango $
 !================================================== Hernan G. Arango ===
 !  Copyright (c) 2002-2014 The ROMS/TOMS Group        John C. Warner   !
 !    Licensed under a MIT/X style license                              !
@@ -123,7 +123,8 @@
       integer :: i, is, j, k
 
       real(r8), parameter :: Large = 1.0E+20_r8
-      real(r8), parameter :: eps = 1.0E-14_r8
+      real(r8), parameter :: eps  = 1.0E-18_r8
+      real(r8), parameter :: eps2 = 1.0E-10_r8
 
       real(r8) :: A, B, Tmax, Tmin, Um, Vm, X, Y, Z
       real(r8) :: cff, cff1, cff2, sig_alfa
@@ -272,7 +273,8 @@
         DO k=1,N(ng)
           DO i=IstrU-1,Iendp2
             IF ((Ta(i-1,j,k).le.0.0_r8).or.                             &
-     &          (Ta(i  ,j,k).le.0.0_r8)) THEN
+     &          (Ta(i  ,j,k).le.0.0_r8).or.                             &
+     &          (ABS(Ta(i-1,j,k)-Ta(i,j,k)).le.eps2)) THEN
               Ua(i,j,k)=0.0_r8
             ELSE
               A=(Ta(i,j,k)-Ta(i-1,j,k))/                                &
@@ -443,7 +445,8 @@
         DO k=1,N(ng)
           DO i=IstrU-1,Iendp1
             IF ((Ta(i,j-1,k).le.0.0_r8).or.                             &
-     &          (Ta(i,j  ,k).le.0.0_r8)) THEN
+     &          (Ta(i,j  ,k).le.0.0_r8).or.                             &
+     &          (ABS(Ta(i,j-1,k)-Ta(i,j,k)).le.eps2)) THEN
               Va(i,j,k)=0.0_r8
             ELSE
 # ifdef MASKING

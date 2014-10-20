@@ -3,7 +3,7 @@
 
 #ifdef NESTING
 !
-!svn $Id: mod_nesting.F 715 2014-02-11 02:28:23Z arango $
+!svn $Id: mod_nesting.F 739 2014-10-15 00:56:28Z arango $
 !================================================== Hernan G. Arango ===
 !  Copyright (c) 2002-2014 The ROMS/TOMS Group                         !
 !    Licensed under a MIT/X style license                              !
@@ -175,9 +175,9 @@
 # ifdef SOLVE3D
         integer, pointer :: Kdg(:,:)         ! donor grid, cell K-index
 # endif
-        real(r8), pointer :: Hweight(:,:)          ! horizontal weights
+        real(r8), pointer :: Lweight(:,:)          ! linear weights
 # ifdef SOLVE3D
-        real(r8), pointer :: Vweight(:,:,:)        ! vertical   weights
+        real(r8), pointer :: Vweight(:,:,:)        ! vertical weights
 # endif
       END TYPE T_NGC
 

@@ -2,7 +2,7 @@
 #ifdef TANGENT
       SUBROUTINE tl_get_idata (ng)
 !
-!svn $Id: tl_get_idata.F 709 2014-01-23 20:09:38Z arango $
+!svn $Id: tl_get_idata.F 741 2014-10-15 21:05:43Z arango $
 !================================================== Hernan G. Arango ===
 !  Copyright (c) 2002-2014 The ROMS/TOMS Group                         !
 !    Licensed under a MIT/X style license                              !
@@ -200,11 +200,13 @@
      &                  SOURCES(ng) % Dsrc)
         IF (exit_flag.ne.NoError) RETURN
 
+#  ifdef SOLVE3D
         CALL get_ngfld (ng, iTLM, idRvsh, SSF(ng)%ncid,                 &
      &                  1, SSF(ng), update(1),                          &
      &                  1, Nsrc(ng), N(ng), 1, 1, Nsrc(ng), N(ng),      &
      &                  SOURCES(ng) % Qshape)
         IF (exit_flag.ne.NoError) RETURN
+#  endif
 
         DO is=1,Nsrc(ng)
           SOURCES(ng)%Isrc(is)=                                         &
