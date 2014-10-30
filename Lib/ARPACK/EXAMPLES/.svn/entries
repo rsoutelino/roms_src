@@ -1,7 +1,7 @@
 10
 
 dir
-741
+742
 https://www.myroms.org/svn/src/trunk/Lib/ARPACK/EXAMPLES
 https://www.myroms.org/svn/src
 
@@ -25,6 +25,15 @@ arango
 
 
 f091316a-d328-0410-a40a-876eff57d070
+
+NONSYM
+dir
+
+BAND
+dir
+
+COMPLEX
+dir
 
 SYM
 dir
@@ -68,13 +77,4 @@ has-props
 
 
 4499
-
-NONSYM
-dir
-
-BAND
-dir
-
-COMPLEX
-dir
 

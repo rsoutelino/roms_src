@@ -1,7 +1,7 @@
 10
 
 dir
-741
+742
 https://www.myroms.org/svn/src/trunk/Lib/ARPACK/ARMAKES
 https://www.myroms.org/svn/src
 
@@ -298,40 +298,6 @@ has-props
 
 3415
 
-ARmake.SP2
-file
-
-
-
-
-2014-07-25T00:58:19.591533Z
-3e5aaa298c609304a0b630c6fa545ddd
-2007-03-29T16:11:29.057515Z
-23
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2392
-
 ARmake.BLACS-SGI
 file
 
@@ -365,6 +331,40 @@ has-props
 
 
 4874
+
+ARmake.SP2
+file
+
+
+
+
+2014-07-25T00:58:19.591533Z
+3e5aaa298c609304a0b630c6fa545ddd
+2007-03-29T16:11:29.057515Z
+23
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2392
 
 ARmake.MPI-sunmos
 file
@@ -434,40 +434,6 @@ has-props
 
 4854
 
-ARmake.MPI-SUN4
-file
-
-
-
-
-2014-07-25T00:58:19.595533Z
-62121f1f9fb33ca18780d574b10bc9b9
-2007-03-29T16:11:29.057515Z
-23
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3416
-
 ARmake.BLACS-T3D
 file
 
@@ -501,6 +467,40 @@ has-props
 
 
 2931
+
+ARmake.MPI-SUN4
+file
+
+
+
+
+2014-07-25T00:58:19.595533Z
+62121f1f9fb33ca18780d574b10bc9b9
+2007-03-29T16:11:29.057515Z
+23
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3416
 
 ARmake.MPI-T3D
 file
