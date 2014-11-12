@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/src/!svn/ver/738/matlab/4dvar
+END
+Contents.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/src/!svn/ver/711/matlab/4dvar/Contents.m
+END
+rho_balance.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/src/!svn/ver/711/matlab/4dvar/rho_balance.m
+END
+obs_write.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/4dvar/obs_write.m
+END
+d_std.m
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/src/!svn/ver/711/matlab/4dvar/d_std.m
+END
+load_sst_AMSRE.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/711/matlab/4dvar/load_sst_AMSRE.m
+END
+balance_driver.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/711/matlab/4dvar/balance_driver.m
+END
+super_obs.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/738/matlab/4dvar/super_obs.m
+END
+biconj.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/src/!svn/ver/711/matlab/4dvar/biconj.m
+END
+obs_depth.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/4dvar/obs_depth.m
+END
+lateral_obc.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/src/!svn/ver/711/matlab/4dvar/lateral_obc.m
+END
+zeta_balance.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/src/!svn/ver/711/matlab/4dvar/zeta_balance.m
+END
+c_std_bry.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/4dvar/c_std_bry.m
+END
+load_sst_pfeg.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/711/matlab/4dvar/load_sst_pfeg.m
+END
+d_std_bry.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/4dvar/d_std_bry.m
+END
+d_std_unbalanced.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/711/matlab/4dvar/d_std_unbalanced.m
+END
+average.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/src/!svn/ver/711/matlab/4dvar/average.m
+END
+obs_read.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/src/!svn/ver/711/matlab/4dvar/obs_read.m
+END
+d_observations.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/711/matlab/4dvar/d_observations.m
+END
+obs_ijpos.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/738/matlab/4dvar/obs_ijpos.m
+END
+load_ssh_aviso.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/711/matlab/4dvar/load_ssh_aviso.m
+END
+uv_balance.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/src/!svn/ver/711/matlab/4dvar/uv_balance.m
+END
+obs_merge.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/4dvar/obs_merge.m
+END
+d_ssh_obs.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/4dvar/d_ssh_obs.m
+END
+load_ts_metoffice.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/711/matlab/4dvar/load_ts_metoffice.m
+END
+s_balance.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/4dvar/s_balance.m
+END
+d_ts_metoffice.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/711/matlab/4dvar/d_ts_metoffice.m
+END
+ssh_reference.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/711/matlab/4dvar/ssh_reference.m
+END
+d_sst_obs.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/4dvar/d_sst_obs.m
+END
+c_observations.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/711/matlab/4dvar/c_observations.m
+END
+ini_balance.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/src/!svn/ver/711/matlab/4dvar/ini_balance.m
+END
+balance_4dvar.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/711/matlab/4dvar/balance_4dvar.m
+END
+c_std_frc.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/4dvar/c_std_frc.m
+END
+d_std_frc.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/4dvar/d_std_frc.m
+END
+variance.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/src/!svn/ver/711/matlab/4dvar/variance.m
+END
+d_sst_merge.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/src/!svn/ver/711/matlab/4dvar/d_sst_merge.m
+END
+plot_super.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/src/!svn/ver/711/matlab/4dvar/plot_super.m
+END
+c_std.m
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/src/!svn/ver/711/matlab/4dvar/c_std.m
+END

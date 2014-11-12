@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/src/!svn/ver/711/matlab/mex/mexsepeli
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/src/!svn/ver/361/matlab/mex/mexsepeli/README
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/361/matlab/mex/mexsepeli/makefile
+END
+mexgateway_sepeli.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/src/!svn/ver/361/matlab/mex/mexsepeli/mexgateway_sepeli.c
+END
+mexgateway_sepeli.F
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/src/!svn/ver/361/matlab/mex/mexsepeli/mexgateway_sepeli.F
+END
+mexsepeli.inc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/src/!svn/ver/361/matlab/mex/mexsepeli/mexsepeli.inc
+END
+mexsepeli_testdata.mat
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/src/!svn/ver/361/matlab/mex/mexsepeli/mexsepeli_testdata.mat
+END
+sepeli.F
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/361/matlab/mex/mexsepeli/sepeli.F
+END
+test_mexsepeli.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/src/!svn/ver/361/matlab/mex/mexsepeli/test_mexsepeli.m
+END
+mexopts.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/src/!svn/ver/361/matlab/mex/mexsepeli/mexopts.sh
+END

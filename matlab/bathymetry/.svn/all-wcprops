@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/src/!svn/ver/711/matlab/bathymetry
+END
+extract_bath.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/711/matlab/bathymetry/extract_bath.m
+END
+Contents.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/711/matlab/bathymetry/Contents.m
+END
+get_bath.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/711/matlab/bathymetry/get_bath.m
+END
+x_etopo.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/src/!svn/ver/711/matlab/bathymetry/x_etopo.m
+END
+etopo5.nc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/src/!svn/ver/711/matlab/bathymetry/etopo5.nc
+END
+c_bath.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/src/!svn/ver/711/matlab/bathymetry/c_bath.m
+END

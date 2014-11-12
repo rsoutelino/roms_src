@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/src/!svn/ver/722/matlab/netcdf
+END
+nc_write.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/netcdf/nc_write.m
+END
+check_metadata.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/711/matlab/netcdf/check_metadata.m
+END
+nc_vrename.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/src/!svn/ver/711/matlab/netcdf/nc_vrename.m
+END
+nc_slice.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/netcdf/nc_slice.m
+END
+nc_dinfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/netcdf/nc_dinfo.m
+END
+nc_interface.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/711/matlab/netcdf/nc_interface.m
+END
+roms_metadata.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/722/matlab/netcdf/roms_metadata.m
+END
+nc_attadd.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/src/!svn/ver/711/matlab/netcdf/nc_attadd.m
+END
+nc_create.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/src/!svn/ver/711/matlab/netcdf/nc_create.m
+END
+nc_vname.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/netcdf/nc_vname.m
+END
+nc_append.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/src/!svn/ver/711/matlab/netcdf/nc_append.m
+END
+nc_read.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/src/!svn/ver/711/matlab/netcdf/nc_read.m
+END
+nc_drename.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/src/!svn/ver/711/matlab/netcdf/nc_drename.m
+END
+nc_check.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/netcdf/nc_check.m
+END
+nc_attdel.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/src/!svn/ver/711/matlab/netcdf/nc_attdel.m
+END
+Contents.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/netcdf/Contents.m
+END
+nc_test.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/src/!svn/ver/711/matlab/netcdf/nc_test.m
+END
+nc_vinfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/src/!svn/ver/711/matlab/netcdf/nc_vinfo.m
+END
+nc_vdef.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/src/!svn/ver/711/matlab/netcdf/nc_vdef.m
+END
+nc_inq.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/src/!svn/ver/711/matlab/netcdf/nc_inq.m
+END
+nc_getatt.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/src/!svn/ver/711/matlab/netcdf/nc_getatt.m
+END
+nc_constant.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/src/!svn/ver/711/matlab/netcdf/nc_constant.m
+END
+nc_vnames.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/src/!svn/ver/711/matlab/netcdf/nc_vnames.m
+END

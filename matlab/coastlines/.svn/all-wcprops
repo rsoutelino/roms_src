@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/src/!svn/ver/711/matlab/coastlines
+END
+Contents.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/src/!svn/ver/711/matlab/coastlines/Contents.m
+END
+r_gshhs.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/src/!svn/ver/711/matlab/coastlines/r_gshhs.m
+END
+boundary.dat
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/src/!svn/ver/711/matlab/coastlines/boundary.dat
+END
+grid_corners.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/src/!svn/ver/711/matlab/coastlines/grid_corners.m
+END
+extract_coast.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/src/!svn/ver/711/matlab/coastlines/extract_coast.m
+END
+x_gshhs.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/src/!svn/ver/711/matlab/coastlines/x_gshhs.m
+END
+get_coast.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/src/!svn/ver/711/matlab/coastlines/get_coast.m
+END
