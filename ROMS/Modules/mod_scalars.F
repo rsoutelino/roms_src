@@ -1,7 +1,7 @@
 #include "cppdefs.h"
       MODULE mod_scalars
 !
-!svn $Id: mod_scalars.F 727 2014-03-28 21:46:14Z arango $
+!svn $Id: mod_scalars.F 744 2014-11-19 23:57:22Z arango $
 !================================================== Hernan G. Arango ===
 !  Copyright (c) 2002-2014 The ROMS/TOMS Group                         !
 !    Licensed under a MIT/X style license                              !
@@ -247,7 +247,7 @@
 !
         integer, allocatable :: ntimes(:)
 !
-!  Step counter for current execution time-window.
+!  Time-step counter for current execution time-window.
 !
         integer, allocatable :: step_counter(:)
 

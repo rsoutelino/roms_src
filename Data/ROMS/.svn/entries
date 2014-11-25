@@ -1,7 +1,7 @@
 10
 
 dir
-742
+744
 https://www.myroms.org/svn/src/trunk/Data/ROMS
 https://www.myroms.org/svn/src
 
@@ -26,9 +26,6 @@ has-props
 
 f091316a-d328-0410-a40a-876eff57d070
 
-CDL
-dir
-
 Grid
 dir
 
@@ -36,5 +33,8 @@ Forcing
 dir
 
 Initial
+dir
+
+CDL
 dir
 

@@ -1,7 +1,7 @@
 #include "cppdefs.h"
       SUBROUTINE def_rst (ng)
 !
-!svn $Id: def_rst.F 741 2014-10-15 21:05:43Z arango $
+!svn $Id: def_rst.F 744 2014-11-19 23:57:22Z arango $
 !================================================== Hernan G. Arango ===
 !  Copyright (c) 2002-2014 The ROMS/TOMS Group                         !
 !    Licensed under a MIT/X style license                              !
@@ -615,7 +615,7 @@
         Vinfo(14)=Vname(4,idPwet)
         Vinfo(16)=Vname(1,idtime)
         Vinfo(22)='coordinates'
-        Aval(5)=REAL(Iinfo(1,idRwet,ng),r8)
+        Aval(5)=REAL(Iinfo(1,idPwet,ng),r8)
         status=def_var(ng, iNLM, RST(ng)%ncid, RST(ng)%Vid(idPwet),     &
      &                 NF_FOUT, nvd3, sp2dgrd, Aval, Vinfo, ncname,     &
      &                 SetFillVal = .FALSE.)

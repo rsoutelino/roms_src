@@ -1,14 +1,14 @@
 10
 
 dir
-742
+744
 https://www.myroms.org/svn/src/trunk/ROMS/Utility
 https://www.myroms.org/svn/src
 
 
 
-2014-10-15T21:05:43.220049Z
-741
+2014-11-19T23:57:22.700441Z
+744
 arango
 has-props
 
@@ -502,40 +502,6 @@ has-props
 
 14840
 
-array_modes.F
-file
-
-
-
-
-2014-07-25T00:58:07.103534Z
-487dabceb3f0cbf37d8ec4371c2d32c7
-2014-01-23T20:09:38.804670Z
-709
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10327
-
 set_ngfld.F
 file
 
@@ -569,6 +535,40 @@ has-props
 
 
 5569
+
+array_modes.F
+file
+
+
+
+
+2014-07-25T00:58:07.103534Z
+487dabceb3f0cbf37d8ec4371c2d32c7
+2014-01-23T20:09:38.804670Z
+709
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10327
 
 def_floats.F
 file
@@ -740,40 +740,6 @@ has-props
 
 27054
 
-extract_obs.F
-file
-
-
-
-
-2014-07-25T00:58:07.107534Z
-e9b8b157d71a8191ce0c194d60469656
-2014-01-23T20:09:38.804670Z
-709
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19667
-
 get_wetdry.F
 file
 
@@ -807,6 +773,40 @@ has-props
 
 
 9442
+
+extract_obs.F
+file
+
+
+
+
+2014-07-25T00:58:07.107534Z
+e9b8b157d71a8191ce0c194d60469656
+2014-01-23T20:09:38.804670Z
+709
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19667
 
 def_tides.F
 file
@@ -910,40 +910,6 @@ has-props
 
 30438
 
-vorticity.F
-file
-
-
-
-
-2014-07-25T00:58:07.127534Z
-7187a6d7885c80761f0923d5f8e09d03
-2014-01-23T20:09:38.804670Z
-709
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17452
-
 nf_fread4d.F
 file
 
@@ -977,6 +943,40 @@ has-props
 
 
 24465
+
+vorticity.F
+file
+
+
+
+
+2014-07-25T00:58:07.127534Z
+7187a6d7885c80761f0923d5f8e09d03
+2014-01-23T20:09:38.804670Z
+709
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17452
 
 obs_write.F
 file
@@ -2202,40 +2202,6 @@ has-props
 
 32236
 
-checkadj.F
-file
-
-
-
-
-2014-07-25T00:58:07.115534Z
-d48cd297b5dd19e04a4f878139cb0da7
-2014-01-23T20:09:38.804670Z
-709
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18783
-
 def_impulse.F
 file
 
@@ -2269,6 +2235,40 @@ has-props
 
 
 19833
+
+checkadj.F
+file
+
+
+
+
+2014-07-25T00:58:07.115534Z
+d48cd297b5dd19e04a4f878139cb0da7
+2014-01-23T20:09:38.804670Z
+709
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18783
 
 def_mod.F
 file
@@ -2542,40 +2542,6 @@ has-props
 
 108196
 
-wrt_impulse.F
-file
-
-
-
-
-2014-10-20T18:20:03.442077Z
-08f5bc651a1b50e3be3877916c0038fc
-2014-10-15T21:05:43.220049Z
-741
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18619
-
 nf_fwrite3d.F
 file
 
@@ -2609,6 +2575,40 @@ has-props
 
 
 19719
+
+wrt_impulse.F
+file
+
+
+
+
+2014-10-20T18:20:03.442077Z
+08f5bc651a1b50e3be3877916c0038fc
+2014-10-15T21:05:43.220049Z
+741
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18619
 
 obs_cost.F
 file
@@ -2678,14 +2678,14 @@ has-props
 
 22261
 
-congrad.F
+nrutil.F
 file
 
 
 
 
-2014-07-25T00:58:07.099534Z
-d1e1aa02f41553e97cfa293753f45a55
+2014-07-25T00:58:07.079534Z
+412864b5377fb07f2bf35469d6b08b7e
 2014-01-23T20:09:38.804670Z
 709
 arango
@@ -2710,7 +2710,7 @@ has-props
 
 
 
-63606
+17050
 
 white_noise.F
 file
@@ -2746,14 +2746,14 @@ has-props
 
 17370
 
-nrutil.F
+congrad.F
 file
 
 
 
 
-2014-07-25T00:58:07.079534Z
-412864b5377fb07f2bf35469d6b08b7e
+2014-07-25T00:58:07.099534Z
+d1e1aa02f41553e97cfa293753f45a55
 2014-01-23T20:09:38.804670Z
 709
 arango
@@ -2778,7 +2778,7 @@ has-props
 
 
 
-17050
+63606
 
 distribute.F
 file
@@ -2950,40 +2950,6 @@ has-props
 
 76759
 
-def_rst.F
-file
-
-
-
-
-2014-10-20T18:20:03.434077Z
-4a7383243b749470bab56df2e41cf11c
-2014-10-15T21:05:43.220049Z
-741
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-64452
-
 nf_fwrite3d_bry.F
 file
 
@@ -3018,16 +2984,16 @@ has-props
 
 8676
 
-wrt_info.F
+def_rst.F
 file
 
 
 
 
-2014-10-20T18:20:03.438077Z
-8a5588ca1fcdec82801b28f69112f393
-2014-10-15T21:05:43.220049Z
-741
+2014-11-25T07:34:11.302155Z
+fe8a783db35e862dcd7e4a3be2a234ef
+2014-11-19T23:57:22.700441Z
+744
 arango
 has-props
 
@@ -3050,7 +3016,7 @@ has-props
 
 
 
-90100
+64452
 
 state_scale.F
 file
@@ -3086,6 +3052,40 @@ has-props
 
 20664
 
+wrt_info.F
+file
+
+
+
+
+2014-10-20T18:20:03.438077Z
+8a5588ca1fcdec82801b28f69112f393
+2014-10-15T21:05:43.220049Z
+741
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+90100
+
 set_masks.F
 file
 
@@ -3120,40 +3120,6 @@ has-props
 
 19415
 
-get_gst.F
-file
-
-
-
-
-2014-07-25T00:58:07.103534Z
-f1e09031342079494b2190294cb35a9a
-2014-01-23T20:09:38.804670Z
-709
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12382
-
 obs_initial.F
 file
 
@@ -3187,6 +3153,40 @@ has-props
 
 
 10137
+
+get_gst.F
+file
+
+
+
+
+2014-07-25T00:58:07.103534Z
+f1e09031342079494b2190294cb35a9a
+2014-01-23T20:09:38.804670Z
+709
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12382
 
 get_varcoords.F
 file
@@ -3256,40 +3256,6 @@ has-props
 
 9573
 
-wrt_rst.F
-file
-
-
-
-
-2014-10-20T18:20:03.434077Z
-95afd320ce9e81941dceb6167f6f6af6
-2014-10-15T21:05:43.220049Z
-741
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-38581
-
 mp_routines.F
 file
 
@@ -3323,6 +3289,40 @@ has-props
 
 
 4854
+
+wrt_rst.F
+file
+
+
+
+
+2014-10-20T18:20:03.434077Z
+95afd320ce9e81941dceb6167f6f6af6
+2014-10-15T21:05:43.220049Z
+741
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38581
 
 read_biopar.F
 file
@@ -3358,40 +3358,6 @@ has-props
 
 1230
 
-checkvars.F
-file
-
-
-
-
-2014-07-25T00:58:07.091534Z
-f2058bea1966ffe9c726e4ef89679106
-2014-01-23T20:09:38.804670Z
-709
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26044
-
 read_sedpar.F
 file
 
@@ -3425,6 +3391,40 @@ has-props
 
 
 861
+
+checkvars.F
+file
+
+
+
+
+2014-07-25T00:58:07.091534Z
+f2058bea1966ffe9c726e4ef89679106
+2014-01-23T20:09:38.804670Z
+709
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26044
 
 packing.F
 file
@@ -3460,40 +3460,6 @@ has-props
 
 234264
 
-wrt_error.F
-file
-
-
-
-
-2014-10-20T18:20:03.430077Z
-2d62a07100e3b0116ef5ada44dfbbcf1
-2014-10-15T21:05:43.220049Z
-741
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18695
-
 nf_fwrite2d_bry.F
 file
 
@@ -3527,6 +3493,40 @@ has-props
 
 
 8194
+
+wrt_error.F
+file
+
+
+
+
+2014-10-20T18:20:03.430077Z
+2d62a07100e3b0116ef5ada44dfbbcf1
+2014-10-15T21:05:43.220049Z
+741
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18695
 
 normalization.F
 file
@@ -3568,10 +3568,10 @@ file
 
 
 
-2014-07-25T00:58:07.111534Z
-8e326b41c443c4ee081538dd81ad6dfd
-2014-03-28T21:46:14.240801Z
-727
+2014-11-25T07:34:11.302155Z
+54c88bd873f983d723cbd51348cb6c0f
+2014-11-19T23:57:22.700441Z
+744
 arango
 has-props
 
@@ -3594,7 +3594,7 @@ has-props
 
 
 
-82873
+82946
 
 get_nudgcoef.F
 file
@@ -3732,40 +3732,6 @@ has-props
 
 16737
 
-wrt_tides.F
-file
-
-
-
-
-2014-10-20T18:20:03.430077Z
-84c79e6b401055b4a51039c5083d1e05
-2014-10-15T21:05:43.220049Z
-741
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11433
-
 set_scoord.F
 file
 
@@ -3800,16 +3766,16 @@ has-props
 
 23702
 
-set_3dfld.F
+wrt_tides.F
 file
 
 
 
 
-2014-07-25T00:58:07.095534Z
-a024e8cc4907b6cc40b50d5cbee5ddc4
-2014-01-23T20:09:38.804670Z
-709
+2014-10-20T18:20:03.430077Z
+84c79e6b401055b4a51039c5083d1e05
+2014-10-15T21:05:43.220049Z
+741
 arango
 has-props
 
@@ -3832,7 +3798,7 @@ has-props
 
 
 
-7753
+11433
 
 Module.mk
 file
@@ -3867,6 +3833,40 @@ has-props
 
 
 613
+
+set_3dfld.F
+file
+
+
+
+
+2014-07-25T00:58:07.095534Z
+a024e8cc4907b6cc40b50d5cbee5ddc4
+2014-01-23T20:09:38.804670Z
+709
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7753
 
 def_info.F
 file
@@ -3970,6 +3970,40 @@ has-props
 
 12187
 
+checkdefs.F
+file
+
+
+
+
+2014-11-25T07:34:11.302155Z
+69c49aa4ff0ec2b9bb3044e6efd83008
+2014-11-19T23:13:06.870381Z
+743
+arango
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+95829
+
 get_state.F
 file
 
@@ -4003,40 +4037,6 @@ has-props
 
 
 179887
-
-checkdefs.F
-file
-
-
-
-
-2014-07-25T00:58:07.099534Z
-0398c0f0d752fab025abfc008153fc14
-2014-03-13T22:25:13.772069Z
-719
-arango
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-95577
 
 frc_weak.F
 file
@@ -4242,16 +4242,16 @@ has-props
 
 2354
 
-nf_fread3d.F
+def_avg.F
 file
 
 
 
 
-2014-07-25T00:58:07.127534Z
-1f3a38a20fe56abbc2fbbf73109a3466
-2014-01-23T20:09:38.804670Z
-709
+2014-07-25T00:58:07.115534Z
+86056a8101529bbc5d22cd7ca4df9847
+2014-03-28T21:46:14.240801Z
+727
 arango
 has-props
 
@@ -4274,7 +4274,7 @@ has-props
 
 
 
-24591
+104195
 
 state_addition.F
 file
@@ -4310,16 +4310,16 @@ has-props
 
 26369
 
-def_avg.F
+nf_fread3d.F
 file
 
 
 
 
-2014-07-25T00:58:07.115534Z
-86056a8101529bbc5d22cd7ca4df9847
-2014-03-28T21:46:14.240801Z
-727
+2014-07-25T00:58:07.127534Z
+1f3a38a20fe56abbc2fbbf73109a3466
+2014-01-23T20:09:38.804670Z
+709
 arango
 has-props
 
@@ -4342,7 +4342,7 @@ has-props
 
 
 
-104195
+24591
 
 get_cycle.F
 file
