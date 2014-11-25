@@ -6,6 +6,8 @@ function w=plot_ell(SEMA, ECC, INC, PHA, IND)
 % ellipse, e.g., if IND=[2 3 1]; the ellipse corresponding to 
 % the indices of (2,3,1) will be plotted.
 %___________________________
+do_the_plot(SEMA, ECC, INC, PHA);
+stop
 
  size_SEMA=size(SEMA);
   len_IND=length(IND);
@@ -18,7 +20,7 @@ function w=plot_ell(SEMA, ECC, INC, PHA, IND)
        end
 
        for k=1:len_IND;
-          cmd=[cmd ','num2str(IND(k))];
+          cmd=[cmd ,num2str(IND(k))];
           if k<len_IND
          	titletxt=[titletxt num2str(IND(k)) ',']; 
 	  elseif len_IND==1

@@ -130,6 +130,7 @@ fprintf ( 1, 'Reading %s...\n', [harmonics_prefix vars(3)]);
 
 cnames=upper(char(names));
 
+
 %--------------------------------------------------------------------------
 % Make sure that the OTPS mask agrees with the ROMS mask.
 % Fill in any points that ROMS thinks is water but OTPS thinks is land.
@@ -164,6 +165,7 @@ for j = 1:num_constituents
   Tide.period(j)=1/a.freq(iconst(j));
 end
 
+
 Tide.names = names;
 
 Ntide = length(z_hc);
@@ -172,6 +174,9 @@ rg = roms_get_grid ( gfile );
 
 z_amp = zero_out_land ( z_amp, land );
 z_phase = zero_out_land ( z_phase, land );
+
+save '/ops/hindcast/roms/mermaid_matlab/otis_arrays.mat' z_phase z_amp names u_phase u_amp v_phase v_amp;
+
 	
 %--------------------------------------------------------------------------
 % Correct phase lag to the specified base_time. Also, the amplitude
@@ -217,9 +222,15 @@ for k=1:Ntide;
   v_amp(k,:,:) =v_amp(k,:,:) .* Fp(k);
 end
 
+
+
 z_phase=mod(z_phase,360);
 u_phase=mod(u_phase,360);
 v_phase=mod(v_phase,360);
+
+save '/ops/hindcast/roms/mermaid_matlab/otis_arrays_corrected.mat' z_phase z_amp names u_phase u_amp v_phase v_amp;
+
+
 
 Tide.Ephase    = z_phase(:,:,:);
 Tide.Eamp      = z_amp(:,:,:);
@@ -240,11 +251,28 @@ Tide.Cmin=major.*eccentricity;
 Tide.Cangle= zero_out_land ( inclination, land );
 Tide.Cphase = zero_out_land ( phase, land );
 
+cmax = major;
+cmin = major .* eccentricity;
+cangle = zero_out_land ( inclination, land );
+cphase = zero_out_land ( phase, land );
+epha = z_phase
+eamp = z_amp
+
+save '/ops/hindcast/roms/mermaid_matlab/otis_ellipses.mat' epha eamp cmin cmax cphase cangle;
+
+
 %--------------------------------------------------------------------------
 %  Write out extracted into NetCDF file
 %--------------------------------------------------------------------------
 
-save '/ops/hindcast/roms/mermaid_matlab/Tide.mat' Tide
+eamp = Tide.Eamp;
+epha = Tide.Ephase;
+cmax = Tide.Cmax; 
+cmin = Tide.Cmin;
+cang = Tide.Cangle;
+cpha = Tide.Cphase;
+
+save '/ops/hindcast/roms/mermaid_matlab/Tide.mat' eamp epha cmax cmin cang cpha;
 
 write_tides(Tide, gfile, ofile, base_date, model_file);
 

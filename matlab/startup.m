@@ -20,7 +20,7 @@ format long g
 % installed in your computer.
 
 my_home = getenv('HOME');
-my_root = strcat(my_home, '/metocean/roms');
+my_root = strcat(my_home, '/metocean/github/roms_src');
 
 path(path, fullfile(my_root, 'matlab', '4dvar', ''))
 path(path, fullfile(my_root, 'matlab', 'bathymetry', ''))
